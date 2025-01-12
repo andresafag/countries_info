@@ -10,4 +10,4 @@ jobs:
       - name: checkout python
         uses: actions/setup-python@v5.3.0
       - name: run script
-        run:  echo "esto es el repositorio ${{ GITHUB_REPOSITORY }}"
+        run:  echo "esto es el repositorio $GITHUB_REPOSITORY"
