@@ -1,0 +1,9 @@
+on:
+  workflow_dispatch:  
+jobs:
+  my_job:
+    name: deploy to staging
+    runs-on: ubuntu-22.04
+    steps:
+      - name: testing
+        run:  echo 'This step will only run if the secret has a value set.'
