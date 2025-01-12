@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import re
-import pyfiglet 
+ 
 
 def scrape_countries():
     url = "https://www.infoplease.com/countries"
@@ -44,9 +44,6 @@ def scrape_countries():
             "International Disputes"
         ]
         for country in countries:
-            print(f"\033[1m {country} \033[1m")
-            styled_text=pyfiglet.figlet_format(f"{country.upper()}",font= 'slant', width=300, justify='center')
-            print(styled_text)
             f = open("countries", "a")
             f.write("\n")
             f.write("\n")
