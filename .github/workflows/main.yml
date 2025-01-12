@@ -5,5 +5,9 @@ jobs:
     name: deploy to staging
     runs-on: ubuntu-22.04
     steps:
-      - name: testing
-        run:  echo 'This step will only run if the secret has a value set.'
+      - name: chdckout repo
+        uses: actions/checkout@v4
+      - name: checkout python
+        uses: actions/setup-python@v5.3.0
+      - name: run script
+        run:  echo "esto es el repositorio ${{ REPOSITORY }}"
