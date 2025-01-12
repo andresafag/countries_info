@@ -24,5 +24,11 @@ jobs:
         uses: offensive-vk/auto-commit-push@v7
         with:
           branch: main
+          name: Andres Acosta [Github Actions]
+          email: andresfelipeacostagarcia34@gmail.com
+          
+          
+          
+          
             
         
