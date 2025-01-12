@@ -14,7 +14,10 @@ jobs:
       - name: echo script
         run:  echo "esto es el repositorio $GITHUB_REPOSITORY"
       - name: run scraper script
-        run: python ./scraper.py
+        run: |
+          pip install pipreqs
+          pip install -r requirements.txt
+          python ./scraper.py
       - name: commit and push
         uses: offensive-vk/auto-commit-push@v7
         with:
