@@ -4,6 +4,8 @@ jobs:
   my_job:
     name: deploy to staging
     runs-on: ubuntu-22.04
+    permissions: 
+      contents: write
     steps:
       - name: chdckout repo
         uses: actions/checkout@v4
