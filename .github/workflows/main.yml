@@ -26,9 +26,4 @@ jobs:
           branch: main
           name: Andres Acosta [Github Actions]
           email: andresfelipeacostagarcia34@gmail.com
-          
-          
-          
-          
-            
-        
+          github-token: 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
