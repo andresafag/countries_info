@@ -20,7 +20,14 @@ This project is a web scraping tool built with Python. It extracts data from a p
     ```sh
     cd web-scraping-project
     ```
-3. Install the required packages
+
+3. Pull the missing dependencies
+   
+   ```sh
+   pipreqs .
+   ``` 
+
+4. Install the required packages
     ```sh
     pip install -r requirements.txt
     ```
