@@ -42,7 +42,7 @@ This project is a web scraping tool built with Python. It extracts data from a p
 
 ## Dependencies
 
-- Python 3.x 🐍
+- Python 3 🐍
 - Requests 
 - BeautifulSoup4 
 
