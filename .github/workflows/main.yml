@@ -1,6 +1,6 @@
-name: Repository Dispatch Trigger de unaaaa
+name: de unaaaa
 on:
-  pull_request_target
+  pull_request
 jobs:
   run-on-clone:
     runs-on: ubuntu-latest
