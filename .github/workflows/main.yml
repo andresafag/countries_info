@@ -1,6 +1,6 @@
 name: de unaaaa
 on:
-  pull_request
+  create
 jobs:
   run-on-clone:
     runs-on: ubuntu-latest
